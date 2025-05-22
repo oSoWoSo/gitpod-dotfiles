@@ -26,7 +26,7 @@ Ever wondered how you can bring your personal dotfiles configurations to [Gitpod
 
 To modify it out in a new development environment, click the button below:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/demo-dotfiles)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oSoWoSo/gitpod-dotfiles)
 
 ## Recommended Reading
 
