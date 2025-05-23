@@ -1,0 +1,9 @@
+linux/amd64/bin/lazygit filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/gum filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/git-lfs filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/hx filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/starship filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/yazi filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/zesh filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/zoxide filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/fzf filter=lfs diff=lfs merge=lfs -text
