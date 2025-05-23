@@ -4,7 +4,9 @@
 # Directory where tool binaries will be stored
 #tools_dir: ~/.dotbins
 tools_dir: ''
-
+defaults:
+  prefer_appimage: false  # Prioritize AppImage format when available
+  libc: musl              # Prefer musl over glibc on Linux
 # Target platforms and architectures for which to download binaries
 # These determine which system binaries will be downloaded and managed
 platforms:
