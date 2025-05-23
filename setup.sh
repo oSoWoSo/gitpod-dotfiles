@@ -34,11 +34,12 @@ if ! test -v ZELLIJ && ! pgrep -f "$HOME/.vscode-server/bin" 1>/dev/null && (tes
 } fi
 SNIP
 
-#sudo bash <<'SCRIPT'
 # Install dotbins
-#pip install dotbins
-
-#dotbins sync
+sudo bash <<'SCRIPT'
+sudo apt install pip
+pip install dotbins
+dotbins sync
+SCRIPT
 
 cat >>"$HOME/.bashrc" <<'SNIP'
 source shell/bash.sh
