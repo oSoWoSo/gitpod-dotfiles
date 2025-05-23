@@ -1,0 +1,42 @@
+# dotbins configuration for Gitpod
+# See https://github.com/basnijholt/dotbins for more information
+
+# Directory where tool binaries will be stored
+#tools_dir: ~/.dotbins
+tools_dir: ''
+
+# Target platforms and architectures for which to download binaries
+# These determine which system binaries will be downloaded and managed
+platforms:
+  linux:
+    - amd64  # x86_64
+
+# Tool definitions
+# Format: tool_name: owner/repo or detailed configuration
+tools:
+  # Essential CLI tools with minimal configuration
+  #bat: sharkdp/bat           # Syntax-highlighted cat replacement
+  fzf:
+    repo: junegunn/fzf
+    shell_code:
+      bash: eval "$(fzf --bash)"
+  git-lfs: git-lfs/git-lfs
+  gum: charmbracelet/gum
+  hx: helix-editor/helix
+  lazygit:
+    repo: jesseduffield/lazygit
+    shell_code:
+      bash: alias lg="lazygit"
+  starship:
+    repo: starship/starship
+    shell_code:
+      bash: eval "$(starship init bash)"
+  yazi: sxyazi/yazi
+  zesh: roberte777/zesh
+  zoxide:
+    repo: ajeetdsouza/zoxide
+    shell_code:
+      bash: eval "$(zoxide init bash)"
+  zoxide: ajeetdsouza/zoxide # Smarter cd command with frecency
+# For more configuration options, visit:
+# https://github.com/basnijholt/dotbins#gear-configuration

@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "fzf/linux/amd64": {
+    "tag": "v0.62.0",
+    "updated_at": "2025-05-23T02:17:18.390344",
+    "sha256": "64b56dd484a2317d5f04c28ac0791b36807f034adb419209ad39fb6637255794",
+    "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-linux_amd64.tar.gz"
+  },
+  "git-lfs/linux/amd64": {
+    "tag": "v3.6.1",
+    "updated_at": "2025-05-23T02:17:18.570963",
+    "sha256": "2138d2e405a12f1a088272e06790b76699b79cb90d0317b77aafaf35de908d76",
+    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz"
+  },
+  "gum/linux/amd64": {
+    "tag": "v0.16.0",
+    "updated_at": "2025-05-23T02:17:18.702974",
+    "sha256": "7a403e5671bb0e00f93f7b6aa89ec46f7adbda6f7df5c7bad99a01826903b124",
+    "url": "https://github.com/charmbracelet/gum/releases/download/v0.16.0/gum_0.16.0_Linux_x86_64.tar.gz"
+  },
+  "hx/linux/amd64": {
+    "tag": "25.01.1",
+    "updated_at": "2025-05-23T02:17:18.747403",
+    "sha256": "6008c86ac6ce22e971cb96493a6a317816ee34ba8017983e5095255afdb460e2",
+    "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-x86_64.AppImage"
+  },
+  "lazygit/linux/amd64": {
+    "tag": "v0.51.0",
+    "updated_at": "2025-05-23T02:17:18.964320",
+    "sha256": "34d5c8b6724c797cede489ff0ec2f7608e108bd388657205d3005ff2b5251fce",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.51.0/lazygit_0.51.0_Linux_x86_64.tar.gz"
+  },
+  "starship/linux/amd64": {
+    "tag": "v1.23.0",
+    "updated_at": "2025-05-23T02:17:19.127044",
+    "sha256": "8d06d2cc67aedd6316ff58ab679fb80cded0d85de1dcd5727df0633d35356d57",
+    "url": "https://github.com/starship/starship/releases/download/v1.23.0/starship-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "yazi/linux/amd64": {
+    "tag": "v25.4.8",
+    "updated_at": "2025-05-23T02:17:19.338444",
+    "sha256": "01128a2d9d79018721cc557976ade57c28c61daa47e9f7207f2cbd3d5553a734",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v25.4.8/yazi-x86_64-unknown-linux-musl.zip"
+  },
+  "zesh/linux/amd64": {
+    "tag": "zesh-v0.3.0",
+    "updated_at": "2025-05-23T02:17:19.380022",
+    "sha256": "2d4112a54938171c0adc47296505c3c306d014e10b964dd1f5776d767a5e4e1f",
+    "url": "https://github.com/roberte777/zesh/releases/download/zesh-v0.3.0/zesh"
+  },
+  "zoxide/linux/amd64": {
+    "tag": "v0.9.7",
+    "updated_at": "2025-05-23T02:17:19.404399",
+    "sha256": "ee53a42c11fe8a175ef7b136bb91f588aef76e1ae7133e58a695b1199588ee7e",
+    "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.7/zoxide-0.9.7-x86_64-unknown-linux-musl.tar.gz"
+  }
+}
