@@ -25,7 +25,31 @@ curl -L "https://github.com/axonasif/gitpod.zellij/releases/latest/download/gitp
 SCRIPT
 
 cat >>"$HOME/.bashrc" <<'SNIP'
-source shell/bash.sh
+_os=$(uname -s | tr '[:upper:]' '[:lower:]')
+[[ "$_os" == "darwin" ]] && _os="macos"
+
+_arch=$(uname -m)
+[[ "$_arch" == "x86_64" ]] && _arch="amd64"
+[[ "$_arch" == "aarch64" || "$_arch" == "arm64" ]] && _arch="arm64"
+
+export PATH="$_os/$_arch/bin:$PATH"
+
+# Tool-specific configurations
+# Configuration for fzf
+if command -v fzf >/dev/null 2>&1; then
+    eval "$(fzf --bash)"
+fi
+
+# Configuration for lazygit
+if command -v lazygit >/dev/null 2>&1; then
+    alias lg="lazygit"
+fi
+
+# Configuration for starship
+if command -v starship >/dev/null 2>&1; then
+    eval "$(starship init bash)"
+fi
+
 SNIP
 
 # Auto start zellij on SSH or xtermjs
