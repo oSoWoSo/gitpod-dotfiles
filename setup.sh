@@ -13,9 +13,10 @@ done
 cd $CURRENT
 
 sudo bash <<'SCRIPT'
-# Install latest static zellij
-curl -L "https://github.com/zellij-org/zellij/releases/latest/download/zellij-x86_64-unknown-linux-musl.tar.gz" |
-  tar -C /usr/bin -xzf - zellij
+# Install dotbins
+pip install dotbins
+
+dotbins sync
 
 # Install gitpod.zellij plugin
 plugin_path="/usr/bin/gitpod_zellij"
